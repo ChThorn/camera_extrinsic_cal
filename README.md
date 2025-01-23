@@ -14,3 +14,5 @@ The method using is TSAI methods incorporate with quanternion.
 `mkdir build && cd build`
 
 `cmake .. && make`
+
+`./DialogExtrinsic DataPath`
