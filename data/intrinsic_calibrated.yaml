@@ -1,0 +1,16 @@
+%YAML:1.0
+---
+camera_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 606.87, 0.0, 326.074,
+           0.0, 606.394, 241.158,
+           0.0, 0.0, 1.0 ]
+distortion_coefficients: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ -0.1573, 0.1302, 0.00332, -0.00151, 0.0 ]  # Example distortion values
+image_width: 640
+image_height: 480
