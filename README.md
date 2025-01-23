@@ -5,3 +5,12 @@ This repository is working on extrinsic calibration that is implementing in cpp.
 The calibration is considered on eye-to-hand calibration process which is calibrating the transformation matrix between the camera frame and TCP (end-effector).
 
 The method using is TSAI methods incorporate with quanternion.
+
+
+## Run
+
+`rm -rf build`
+
+`mkdir build && cd build`
+
+`cmake .. && make`
