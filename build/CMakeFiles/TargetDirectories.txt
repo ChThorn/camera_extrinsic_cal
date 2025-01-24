@@ -1,3 +1,4 @@
 /home/thornch/Documents/Cpp/camera_preparation/camera_extrinsic_cal/build/CMakeFiles/DialogExtrinsic.dir
+/home/thornch/Documents/Cpp/camera_preparation/camera_extrinsic_cal/build/CMakeFiles/DialogExtrinsic_offset.dir
 /home/thornch/Documents/Cpp/camera_preparation/camera_extrinsic_cal/build/CMakeFiles/edit_cache.dir
 /home/thornch/Documents/Cpp/camera_preparation/camera_extrinsic_cal/build/CMakeFiles/rebuild_cache.dir

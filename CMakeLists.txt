@@ -15,6 +15,7 @@ include_directories(
 
 # Create executable
 add_executable(DialogExtrinsic DialogExtrinsic.cpp)
+add_executable(DialogExtrinsic_offset DialogExtrinsic_offsetAdded.cpp)
 
 # Link libraries
 target_link_libraries(DialogExtrinsic 
@@ -22,3 +23,10 @@ target_link_libraries(DialogExtrinsic
     ${OpenCV_LIBS}
     Eigen3::Eigen
 )
+
+# Link libraries for second executable
+target_link_libraries(DialogExtrinsic_offset
+    ${realsense2_LIBRARY}
+    ${OpenCV_LIBS}
+    Eigen3::Eigen
+)   

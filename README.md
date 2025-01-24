@@ -15,4 +15,4 @@ The method using is TSAI methods incorporate with quanternion.
 
 `cmake .. && make`
 
-`./DialogExtrinsic DataPath`
+`./DialogExtrinsic DataPath 0` (0 without offset gripper and 1 with offset gripper)

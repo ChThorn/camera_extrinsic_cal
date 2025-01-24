@@ -64,10 +64,12 @@ CMAKE_BINARY_DIR = /home/thornch/Documents/Cpp/camera_preparation/camera_extrins
 
 # The main recursive "all" target.
 all: CMakeFiles/DialogExtrinsic.dir/all
+all: CMakeFiles/DialogExtrinsic_offset.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/DialogExtrinsic.dir/codegen
+codegen: CMakeFiles/DialogExtrinsic_offset.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/DialogExtrinsic.dir/clean
+clean: CMakeFiles/DialogExtrinsic_offset.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -108,6 +111,37 @@ CMakeFiles/DialogExtrinsic.dir/codegen:
 CMakeFiles/DialogExtrinsic.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DialogExtrinsic.dir/build.make CMakeFiles/DialogExtrinsic.dir/clean
 .PHONY : CMakeFiles/DialogExtrinsic.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/DialogExtrinsic_offset.dir
+
+# All Build rule for target.
+CMakeFiles/DialogExtrinsic_offset.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DialogExtrinsic_offset.dir/build.make CMakeFiles/DialogExtrinsic_offset.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DialogExtrinsic_offset.dir/build.make CMakeFiles/DialogExtrinsic_offset.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/thornch/Documents/Cpp/camera_preparation/camera_extrinsic_cal/build/CMakeFiles --progress-num=3,4 "Built target DialogExtrinsic_offset"
+.PHONY : CMakeFiles/DialogExtrinsic_offset.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/DialogExtrinsic_offset.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thornch/Documents/Cpp/camera_preparation/camera_extrinsic_cal/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DialogExtrinsic_offset.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thornch/Documents/Cpp/camera_preparation/camera_extrinsic_cal/build/CMakeFiles 0
+.PHONY : CMakeFiles/DialogExtrinsic_offset.dir/rule
+
+# Convenience name for target.
+DialogExtrinsic_offset: CMakeFiles/DialogExtrinsic_offset.dir/rule
+.PHONY : DialogExtrinsic_offset
+
+# codegen rule for target.
+CMakeFiles/DialogExtrinsic_offset.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DialogExtrinsic_offset.dir/build.make CMakeFiles/DialogExtrinsic_offset.dir/codegen
+.PHONY : CMakeFiles/DialogExtrinsic_offset.dir/codegen
+
+# clean rule for target.
+CMakeFiles/DialogExtrinsic_offset.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DialogExtrinsic_offset.dir/build.make CMakeFiles/DialogExtrinsic_offset.dir/clean
+.PHONY : CMakeFiles/DialogExtrinsic_offset.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

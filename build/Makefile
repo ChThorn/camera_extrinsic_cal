@@ -129,6 +129,19 @@ DialogExtrinsic/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DialogExtrinsic.dir/build.make CMakeFiles/DialogExtrinsic.dir/build
 .PHONY : DialogExtrinsic/fast
 
+#=============================================================================
+# Target rules for targets named DialogExtrinsic_offset
+
+# Build rule for target.
+DialogExtrinsic_offset: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DialogExtrinsic_offset
+.PHONY : DialogExtrinsic_offset
+
+# fast build rule for target.
+DialogExtrinsic_offset/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DialogExtrinsic_offset.dir/build.make CMakeFiles/DialogExtrinsic_offset.dir/build
+.PHONY : DialogExtrinsic_offset/fast
+
 DialogExtrinsic.o: DialogExtrinsic.cpp.o
 .PHONY : DialogExtrinsic.o
 
@@ -153,6 +166,30 @@ DialogExtrinsic.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DialogExtrinsic.dir/build.make CMakeFiles/DialogExtrinsic.dir/DialogExtrinsic.cpp.s
 .PHONY : DialogExtrinsic.cpp.s
 
+DialogExtrinsic_offsetAdded.o: DialogExtrinsic_offsetAdded.cpp.o
+.PHONY : DialogExtrinsic_offsetAdded.o
+
+# target to build an object file
+DialogExtrinsic_offsetAdded.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DialogExtrinsic_offset.dir/build.make CMakeFiles/DialogExtrinsic_offset.dir/DialogExtrinsic_offsetAdded.cpp.o
+.PHONY : DialogExtrinsic_offsetAdded.cpp.o
+
+DialogExtrinsic_offsetAdded.i: DialogExtrinsic_offsetAdded.cpp.i
+.PHONY : DialogExtrinsic_offsetAdded.i
+
+# target to preprocess a source file
+DialogExtrinsic_offsetAdded.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DialogExtrinsic_offset.dir/build.make CMakeFiles/DialogExtrinsic_offset.dir/DialogExtrinsic_offsetAdded.cpp.i
+.PHONY : DialogExtrinsic_offsetAdded.cpp.i
+
+DialogExtrinsic_offsetAdded.s: DialogExtrinsic_offsetAdded.cpp.s
+.PHONY : DialogExtrinsic_offsetAdded.s
+
+# target to generate assembly for a file
+DialogExtrinsic_offsetAdded.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DialogExtrinsic_offset.dir/build.make CMakeFiles/DialogExtrinsic_offset.dir/DialogExtrinsic_offsetAdded.cpp.s
+.PHONY : DialogExtrinsic_offsetAdded.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DialogExtrinsic"
+	@echo "... DialogExtrinsic_offset"
 	@echo "... DialogExtrinsic.o"
 	@echo "... DialogExtrinsic.i"
 	@echo "... DialogExtrinsic.s"
+	@echo "... DialogExtrinsic_offsetAdded.o"
+	@echo "... DialogExtrinsic_offsetAdded.i"
+	@echo "... DialogExtrinsic_offsetAdded.s"
 .PHONY : help
 
 
